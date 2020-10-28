@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="dom.js"></script>
+</head>
+<body id="color-fondo">
+    
+    <!--banner-->
+    <div>
+        <img class="imagenes" src="foto1.jpg" alt="Banner" id="foto">
+    </div>
+    <div class="texto">
+        <h1 onclick="mostrar()">Manejo del DOM con javascript</h1>
+
+        <h3 id="ocultar-titulo-principal">Titulo principal</h3>
+        
+        <h4 onclick="ocultar()">Subtitulo</h4>
+    </div>
+    
+    <div class="centrar">
+        
+        <input class="boton" type="button" value="cambiar banner" onclick="cambiarimagen()">
+        <button class="boton" type="button" onclick="mifuncion()">poner color de fondo</button>
+    </div>
+
+    <footer class="site-footer">
+        <div class="contenedor-footer">
+            <a href="https://github.com/OsvaldoMDLM" class="contacto">Osvaldo Medina</a>
+            <p class="copyright">Todos los Derechos Reservados 2020 &copy;</p>
+        </div>
+    </footer>
+
+    <script src="dom.js"></script>
+</body>
+</html>

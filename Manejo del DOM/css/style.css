@@ -1,0 +1,112 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/****body***/
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2;
+    margin: 0;
+    transition: all ease-in 0.3s;
+}
+/***global****/
+.contenedor {
+    max-width: 120rem;
+    margin:0 auto;
+}
+p {
+    margin: 0;
+    color: white;
+}
+/*****font*****/
+h1{
+    font-weight: 700;
+    font-size: 3.8rem;
+    margin: .5rem 0;
+    cursor: pointer;
+}
+h3{
+    font-weight: 400;
+    font-size: 3rem;
+    margin: .1rem 18rem;
+}
+h4{
+    font-weight: 300;
+    font-size: 2.6rem;
+    margin: .1rem 20rem;
+    cursor: pointer;
+}
+/*******utilidades********/
+.seccion {
+    margin-top: 2rem;
+    margin-bottom: 2em;
+}
+/******centrar******/
+.centrar {
+    display: flex;
+    justify-content: center;
+}
+/*****header*****/
+.imagenes{
+    height: 30rem;
+    object-fit: cover;
+    width: 100%;
+}
+/*****texto*******/
+.texto {
+    text-align: center;
+    margin: 0 35rem;
+}
+/*****botones******/
+.boton {
+    color: white;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    border: #5d8f08;
+    background-color: #74af0d;
+    margin: 3rem 1.5rem;
+    cursor: pointer;
+}
+.boton:hover{
+    opacity: 0.6;
+}
+/*********footer**********/
+.site-footer {
+    text-align: left;
+    font-weight: 900;
+    background-color: #181717d3;
+    color: white;
+    position:fixed;
+    left:0;
+    bottom:0;
+    height:6rem;
+    width:100%;
+}
+.contenedor-footer{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin: 0;
+
+}
+.copyright {
+    margin: 0;
+    color: white;
+    margin-right: 5rem;
+}
+.contacto {
+    color: white;
+    margin-left: 5rem;
+    text-decoration: none;
+}
+.contacto:hover{
+    color: rgb(66, 243, 243);
+}
